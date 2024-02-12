@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">GPA_surabhip1_Calculator</string>
+    <string name="course1_grade">Course 1:</string>
+    <string name="compute_gpa">Compute GPA</string>
+    <string name="course2_grade">Course 2:</string>
+    <string name="course3_grade">Course 3:</string>
+    <string name="course4_grade">Course 4:</string>
+    <string name="course5_grade">Course 5:</string>
+    <string name="courseinput1">Enter grade for course 1</string>
+    <string name="courseinput2">Enter grade for course 2</string>
+    <string name="courseinput3">Enter grade for course 3</string>
+    <string name="courseinput4">Enter grade for course 4</string>
+    <string name="courseinput5">Enter grade for course 5</string>
+    <string-array name="course1_autofill">
+        <item>Enter grade for course 1</item>
+    </string-array>
+    <string-array name="course2_autofill">
+        <item>Enter grade for course 2</item>
+    </string-array>
+    <string-array name="course3_autofill">
+        <item>Enter grade for course3</item>
+    </string-array>
+    <string-array name="course4_autofill">
+        <item>Enter grade for course 4</item>
+    </string-array>
+    <string-array name="course5_autofill">
+        <item>Enter grade for course 5</item>
+    </string-array>
+
+</resources>

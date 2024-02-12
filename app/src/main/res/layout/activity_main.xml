@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="GPA CALCULATION"
+    android:textColor="#C60202"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        />
+
+    <TextView
+        android:id="@+id/label1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course1_grade"
+        android:layout_marginTop="70dp"
+        android:labelFor="@+id/grade1"
+        android:textColor="#7C5283"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/grade1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/label1"
+        android:autofillHints="@array/course1_autofill"
+        android:padding="8dp"
+        android:hint="enter the score"
+        android:textSize="25dp"
+        tools:ignore="LabelFor" />
+    <TextView
+        android:id="@+id/label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/grade1"
+        android:text="@string/course2_grade"
+        android:labelFor="@+id/grade2"
+        android:textColor="#7C5283"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/grade2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/label2"
+        android:autofillHints="@array/course2_autofill"
+        android:padding="8dp"
+        android:hint="enter the score"
+        android:textSize="25dp"
+        tools:ignore="LabelFor" />
+    <TextView
+        android:id="@+id/label3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/grade2"
+        android:text="@string/course3_grade"
+        android:labelFor="@+id/grade3"
+        android:textColor="#7C5283"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/grade3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/label3"
+        android:autofillHints="@array/course3_autofill"
+        android:padding="8dp"
+        android:hint="enter the score"
+        android:textSize="25dp"
+        tools:ignore="LabelFor" />
+    <TextView
+        android:id="@+id/label4"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/grade3"
+        android:layout_height="wrap_content"
+        android:text="@string/course4_grade"
+        android:labelFor="@+id/grade4"
+        android:textColor="#7C5283"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/grade4"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/label4"
+        android:autofillHints="@array/course4_autofill"
+        android:padding="8dp"
+        android:hint="enter the score"
+        android:textSize="25dp"
+        tools:ignore="LabelFor" />
+    <TextView
+        android:id="@+id/label5"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/grade4"
+        android:layout_height="wrap_content"
+        android:text="@string/course5_grade"
+        android:labelFor="@+id/grade5"
+        android:textColor="#7C5283"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/grade5"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/label5"
+        android:autofillHints="@array/course5_autofill"
+        android:padding="8dp"
+        android:textSize="25dp"
+        android:hint="enter the score"
+        tools:ignore="LabelFor" />
+
+
+    <Button
+        android:id="@+id/computeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/compute_gpa"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/grade5"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:backgroundTint="#32023A"/>
+
+    <TextView
+        android:id="@+id/gpaDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/computeButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:textSize="20sp" />
+
+</RelativeLayout>
